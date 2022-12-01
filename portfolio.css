@@ -1,0 +1,57 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+* {
+    font-family: 'Antonio', sans-serif;
+}
+
+p {
+    color: white;
+    
+}
+
+.hero-body {
+    background-image: url("https://pbs.twimg.com/media/DTSUhPiUMAASfs0.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+
+.srun-image {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.subtitle {
+    font-size: 28px;
+}
+
+.tile:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(238, 144, 144);
+    transform: scale(1);
+    transform: transform 100ms;
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    20%{
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px);
+    }
+
+}

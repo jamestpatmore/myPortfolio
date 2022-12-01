@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="https://image.ibb.co/fOur3b/favicon.png"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="port.css">
+<meta name="theme-color" content="#1885ed">
+<title>Portfolio</title>
+</head>
+
+<body>
+<header class="header">
+<div class="container header__container">
+<div class="header__logo"><img class="header__img" src="assets/images/abstract.gif" width="40" height="30"> <h1 class="header__title">James<span class="header__light">Patmore</span></h1></div> 
+
+
+<div class="navbar-menu" id="navbarMenuHeroC">
+<!--
+need to enable the burger menu for mobile responsivness
+-->
+
+    <a 
+    role="button" 
+    class="navbar-burger" 
+    data-target="navbarMenuHeroC"
+    aria-label="menu"
+    aria-expanded="false"
+    >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <nav id="navbar" class="header__nav collapse">
+    <ul class="header__elenco">
+        <li class="header__el"><a href="/index.html" class="header__link">Home</a></li>
+        <li class="header__el"><a href="/aboutme.html" class="header__link">About Me</a></li>
+        <li class="header__el"><a href="/portfolio.html" class="header__link">Portfolio</a></li>
+        <li class="header__el header__el--blue"><a href="mailto:jamesthomaspatmore7@gmail.com?subject=I'm Intrested" class="btn btn--white">Email<i class="fa-solid fa-paper-plane"></i></a></li>
+        <li class="header__el header__el--blue"><a href="https://github.com/jamestpatmore" class="btn btn--blue"><i class="fa-brands fa-square-github"></i></a></li>
+    </ul>
+    </nav>
+</div>
+  
+</header>
+<!--Item slider text-->
+<h1 class="text-center">Portfolio</h1>
+<div class="container">
+  <div class="row" id="slider-text">
+    <div class="col-md-6">
+      <h2>COLLECTION</h2>
+    </div>
+  </div>
+</div>
+
+<!-- Item slider-->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jamestpatmore/MVC-TechBlog">
+                <div class="card__background" style="background-image: url(https://media.tenor.com/58XUFFpP-a0AAAAC/cyber.gif)"></div>
+                <div class="card__content">
+                  <p class="card__category">MVC</p>
+                  <h3 class="card__heading">Full-Stack</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">TekBlog</h4>
+              <h5 class="text-center product-text">Blog/SocialMedia</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jamestpatmore/Project2">
+                <div class="card__background" style="background-image: url(http://cdn.shopify.com/s/files/1/0352/1514/7148/files/MG_4904_2238af1c-0084-4434-8d78-0741605b5a41_1024x.jpg?v=1632442194)"></div>
+                <div class="card__content">
+                  <p class="card__category">MVC</p>
+                  <h3 class="card__heading">Full-Stack</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">DevTek</h4>
+              <h5 class="text-center product-text">ECOMM of TekBlog</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jlmayo/Speed-Runner">
+                <div class="card__background" style="background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0204/XTbLZ4M3vFxy3WFHB66Ja9qL.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">FrontEnd/API</p>
+                  <h3 class="card__heading">FrontEnd</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">SpeedRunner</h4>
+              <h5 class="text-center product-text">VideoGame Database</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jamestpatmore/passwordAutoGenerator">
+                <div class="card__background" style="background-image: url(https://media.wired.com/photos/592723957034dc5f91bedbc2/191:100/w_1280,c_limit/Password-Homepage-art..jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Algorithmic JS</p>
+                  <h3 class="card__heading">Numbers</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">Password Auto-Generator</h4>
+              <h5 class="text-center product-text">Generates the perfect Password</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jamestpatmore/CodeQuiz">
+                <div class="card__background" style="background-image: url(https://steamuserimages-a.akamaihd.net/ugc/781857474749510239/6DFC13A1D8DD5374A87B0E9E1F2E2DEFA982C035/?imw=1024&imh=640&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)"></div>
+                <div class="card__content">
+                  <p class="card__category">Frontend/JS</p>
+                  <h3 class="card__heading">FrontEnd</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">CodeQuiz</h4>
+              <h5 class="text-center product-text">Fun Developer Quiz</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a class="card" href="https://github.com/jamestpatmore/EmployeeTracker_SQL">
+                <div class="card__background" style="background-image: url(https://media.wired.com/photos/603022ee99b36fc090845939/4:3/w_1799,h_1349,c_limit/Command%20Line.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Backend/CLI/SQL</p>
+                  <h3 class="card__heading">Backend</h3>
+                </div>
+              </a>
+              <h4 class="text-center product-text">Employee Tracker</h4>
+              <h5 class="text-center product-text">CLI Employee Database</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="slider-control">
+          <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpZzNuMk9m248ZZNS-USumJ0st-lf83Jexg&usqp=CAU" alt="Left" class="img-responsive"></a>
+          <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRon6dyTNg3v3Mn6aXO5QcbvBexA52iN2VBwodDyg73X1OT9fp_WkzisOipP1ZjZv5XJMc&usqp=CAU" alt="Right" class="img-responsive"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

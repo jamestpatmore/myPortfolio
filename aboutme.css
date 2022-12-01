@@ -1,0 +1,78 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Antonio', sans-serif;
+    color: #ffffff;
+  }
+  
+  body{
+    background-color: black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  
+  h1 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 48px;
+  }
+
+.card {
+    max-height: 100px ;
+}
+
+
+:root {
+    background-color: black;
+}
+
+p {
+    padding: 0;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(144, 163, 238);
+    transform: scale(1);
+    transform: transform 100ms;
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    20%{
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px);
+    }
+
+}
+
+.card__content{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+    }
